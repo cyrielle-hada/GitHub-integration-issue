@@ -3504,6 +3504,25 @@
       "name": "Utilities / Postman Collection",
       "item": [
         {
+          "name": "https://api.getpostman.com/collections\n",
+          "_postman_id": "84d8abd4-14c7-4e68-ae6c-4c8ffc1cd41b",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "X-Api-Key",
+                "value": "707351dcb9f549b9a0bf0a763e1fd909",
+                "type": "text"
+              }
+            ],
+            "url": "https://api.getpostman.com/collections"
+          },
+          "response": []
+        },
+        {
           "name": "Transform collection from format v1 to v2",
           "_postman_id": "814339f8-a619-4a1c-b326-6f86a118dee7",
           "protocolProfileBehavior": {
@@ -3874,25 +3893,6 @@
               "body": "{\"id\":\"0c42230c-c8e4-4ca0-a4aa-d393971de8b8\",\"name\":\"Sample Postman Collection\",\"description\":\"A sample collection to demonstrate collections as a set of related requests\",\"order\":[\"3d04ed83-dc1e-40ec-923c-16aa92509e50\",\"e02f8160-fb41-4633-be80-cc7d701e85b4\",\"77bd6d4d-1060-4927-aa5c-dcdba7f750cf\"],\"folders\":[],\"requests\":[{\"id\":\"3d04ed83-dc1e-40ec-923c-16aa92509e50\",\"name\":\"A simple GET request\",\"collectionId\":\"1dd68aff-a3fa-4f52-904f-5b75053bc9d9\",\"method\":\"GET\",\"headers\":\"\",\"data\":[],\"rawModeData\":\"\",\"tests\":\"tests['response code is 200'] = (responseCode.code === 200);\",\"preRequestScript\":\"\",\"url\":\"https://postman-echo.com/get?source=newman-sample-github-collection\"},{\"id\":\"e02f8160-fb41-4633-be80-cc7d701e85b4\",\"name\":\"A simple POST request\",\"collectionId\":\"1dd68aff-a3fa-4f52-904f-5b75053bc9d9\",\"method\":\"POST\",\"headers\":\"Content-Type: text/plain\",\"dataMode\":\"raw\",\"data\":[],\"rawModeData\":\"Duis posuere augue vel cursus pharetra. In luctus a ex nec pretium...\",\"url\":\"https://postman-echo.com/post\"},{\"id\":\"77bd6d4d-1060-4927-aa5c-dcdba7f750cf\",\"name\":\"A simple POST request with JSON body\",\"collectionId\":\"1dd68aff-a3fa-4f52-904f-5b75053bc9d9\",\"method\":\"POST\",\"headers\":\"Content-Type: application/json\",\"dataMode\":\"raw\",\"data\":[],\"rawModeData\":\"{\\\"text\\\":\\\"Duis posuere augue vel cursus pharetra. In luctus a ex nec pretium...\\\"}\",\"url\":\"https://postman-echo.com/post\"}]}"
             }
           ]
-        },
-        {
-          "name": "https://api.getpostman.com/collections\n",
-          "_postman_id": "84d8abd4-14c7-4e68-ae6c-4c8ffc1cd41b",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "GET",
-            "header": [
-              {
-                "key": "X-Api-Key",
-                "value": "707351dcb9f549b9a0bf0a763e1fd909",
-                "type": "text"
-              }
-            ],
-            "url": "https://api.getpostman.com/collections"
-          },
-          "response": []
         }
       ],
       "_postman_id": "8977616a-1d23-46b7-9e5a-b83198468e5d"
